@@ -1,0 +1,69 @@
+#para {
+    margin: -55px 116px;
+}
+    
+body{
+    overflow: hidden;
+   
+    
+}
+ 
+ 
+
+ .box
+ {
+     flex-direction: column;
+ }
+ 
+ .client-section{
+     overflow: hidden;
+ }
+ .menu{
+     flex-direction: column;
+     overflow: hidden;
+     
+ }
+ body::before {
+    background: url(pp.jpg) no-repeat center center/cover;
+ 
+    width: 426%;
+    top:0%
+}
+.h1{
+    font-size: 17px;
+}
+#para{
+    margin: -81px 8px;
+    text-align: center;
+}
+.btn
+{
+    margin: 82px 42%;
+    width: 30%;
+}
+#services{
+    text-align: center;
+    font-size: 16px;
+    margin: -48px 209px;
+}
+.box{
+    height: 264px;
+    width: 53%;
+    display: inline-block;
+    margin: 75px 88px;
+}
+.img{
+    margin: 42px 14px
+}
+#p1{
+    font-size: 8px;
+    margin: 56px 10px;
+}
+.client-section::before {
+    width: 481%;
+    height: 759px;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,2fr));
+}

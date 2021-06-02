@@ -1,0 +1,158 @@
+.h1{
+     font-family: 'Sansita Swashed';
+     font-size: 30px;
+     text-align: center;
+     margin: 90px 145px
+}
+h3{
+    font-size: 23px;
+    margin:-46px 50px;
+}
+li:hover{
+    color: white;
+}
+
+h3 #name2{
+    margin: -46px 70px;
+}
+#p1{
+    font-size: 10px;
+    margin: 53px 23px;
+}
+#p2{
+    font-size: 10px;
+    margin: 53px 23px;
+}
+#p3{
+    font-size: 10px;
+    margin: 53px 23px;
+}
+#para{
+    
+    margin: -50px 253px
+}
+.btn{
+    border-radius: 4px;
+    margin: 55px 45%;
+
+}
+#services{
+    text-align: center;
+    font-size: 35px;
+    margin: 0px 260px;
+    
+      
+}
+#services{
+    padding: -10px;
+    font-family: 'Sansita Swashed';
+
+}
+.clients{
+    font-family: 'Sansita Swashed';
+
+}
+.client-item img{
+    height:150px;
+    
+}
+.client-item{
+    height: 100px;
+    display:inline-flex;
+    margin: 3px 3px;
+   
+    align-items: center;
+   
+}
+.client-section::before{
+    content: "";
+            position: absolute;
+            background: url('pp.jpg') no-repeat center center/cover;
+            margin: 0px;
+            padding: 0px;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 500px;
+            z-index: -1;
+            /* top: 1%; */
+            /* bottom: 0%; */
+            left: 0%;
+            opacity: 0.8;
+
+}
+#Box1{
+    font-family: 'Sansita Swashed';
+    
+
+}
+#Box2{
+    font-family: 'Sansita Swashed';
+
+}
+#Box3{
+    font-family: 'Sansita Swashed';
+
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 400;
+    background: url('pp.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+.centre{
+    text-align: center;
+
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#contact-box{
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   
+  
+}
+.form-group{
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Sansita Swashed';
+    border-radius:4px;
+}
+
+.h-primary{
+    font-family: 'Sansita Swashed';
+    text-align: center;
+}
+
+    
+#img1{
+    height: 60px;
+    width: 120px;
+}
+#img2{
+    height: 60px;
+    width: 120px;
+}
+#img3{
+    height: 60px;
+    width: 120px;
+}
+body::before {
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+

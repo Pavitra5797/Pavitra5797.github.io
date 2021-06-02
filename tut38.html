@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 586px)" href="phone.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <style>
+        body::before {
+            content: "";
+            position: absolute;
+            background: url('pp.jpg') no-repeat center center/cover;
+            margin: 0px;
+            padding: 0px;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0%;
+            bottom: 0%;
+            left: 0%;
+            opacity: 0.8;
+            font-family: 'Sansita Swashed';
+        }
+
+        .ul {
+
+            display: flex;
+
+            padding: -90px 10px;
+            margin: 23px 23px;
+            position: absolute;
+            text-align: center;
+            float: left;
+            font-size: 20px;
+            font-family: 'Sansita Swashed';
+            cursor: pointer;
+
+
+        }
+
+        li {
+
+            padding: 4px 4px;
+            margin: -90px 12px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            font-family: 'Sansita Swashed';
+        }
+
+        /* .navbar{
+            border: 2px solid red;
+            color: white;
+
+
+            width: 44px 23px;
+            height: 23px 23px;
+            background-color: black;
+            z-index: -1;
+        } */
+
+
+
+
+
+        }
+
+        p {
+            /* font-size: 20px; */
+            text-align: center;
+            margin: -67px 123px;
+            font-family: 'Sansita Swashed';
+
+        }
+
+        .btn {
+            display: inline-block;
+            display: flex;
+            margin: 7% 45%;
+            width: 7%;
+            cursor: pointer;
+
+
+        }
+
+
+        .btn:hover {
+            background-color: darkorange;
+        }
+
+        .box {
+            border: 4px solid brown;
+            height: 230px;
+            width: 25%;
+            display: inline-block;
+            margin: 23px 20px;
+            border-radius: 10px;
+            background-color: rgb(247, 162, 4);
+            box-shadow: 6px 5px 5px;
+            padding: 21px;
+
+
+        }
+
+
+
+
+
+
+        img {
+            width: 69px;
+            height: 41px;
+            margin: 52px 90px;
+        }
+
+        .clients {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="ul">
+            
+            <li class="menu" ><a href="#services"> Home </a></li>
+            <li class="menu"><a href="#para"> About us </a></li>
+            <li class="menu"><a href="#Box1"> Services </a></li>
+            <li class="menu"><a href="#contact-box"> Contact us </a></li>
+
+
+        </ul>
+        <div class="mid">
+
+            <div class="container">
+                
+                <h1 class="h1"> Welcome To my Website </h1>
+                <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquid esse commodi
+                    reiciendis error porro, recusandae, enim odit nisi eos dolorum corrupti molestias unde eligendi
+                    illum veniam minima aspernatur cupiditate!</p>
+
+                <button class="btn">
+                    Order now
+                </button>
+
+                <div id="services">Our Services</div>
+            </div>
+    </nav>
+
+    <div class="box" id="Box1">
+        <img id="img1" src="OIP.png" alt="">
+        <h3 id="name1">Food Ordering</h3>
+        <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita quos aut amet ipsa quaerat
+            inventore
+            laborum odio recusandae similique mollitia earum nisi eligendi pariatur repellat facilis tempore, temporibus
+            consequuntur quidem.</p>
+    </div>
+    <div class="box" id="Box2">
+        <img id="img2" src="download.png" alt="">
+        <h3 id="name2">Catering</h3>
+        <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit veniam non nulla dignissimos voluptates
+            qui magni asperiores officiis atque a sint deserunt, deleniti fuga odit exercitationem accusamus error
+            magnam in!</p>
+    </div>
+    <div class="box" id="Box3">
+        <img id="img3" src="logo.png" alt="">
+        <h3 id="name3">Bulk Ordering</h3>
+        <p id="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam itaque error consectetur a libero
+            ex! Molestias eveniet velit accusamus sed nihil consequatur, molestiae dolorum consectetur, quia doloribus
+            modi, ducimus maxime!</p>
+    </div>
+    <div class="clients">
+        <h2>
+            Our Clients
+        </h2>
+    </div>
+    <div class="client-section">
+    <div class="client-item">
+        <img src="apple.svg" alt="">
+    </div>
+        <div class="client-item">
+        <img src="ferrari.svg" alt="">
+    </div>
+        <div class="client-item">
+        <img src="lambo.svg" alt="">
+
+</div>
+
+
+
+<div class="client-item">
+<img src="lambo.svg" alt="">
+</div>
+</div>
+</div>
+</div>
+    </div>
+<section class="contact">
+    <h1 class="h-primary">Contact Us</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your Phone Number">
+
+            </div>
+            <div class="form-group">
+                <label for="name">Email: </label>
+                <input type="text" name="Email" id="Email" placeholder="Enter your Email">
+
+            </div>
+            <div class="form-group">
+                <label for="Ph-no">Ph.No: </label>
+                <input type="text" name="ph-no" id="ph-no" placeholder="Enter your Name">
+
+            </div>
+            <div class="form-group">
+                <label for="Message">Message: </label>
+            <textarea name="Message" id="" cols="30" rows="10"></textarea>
+
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<footer>
+    <div class="centre">
+        Copyright &copy; www.myonlinemeal.com. All rights reserved
+    </div>
+</footer>
+
+</body>
+
+</html>
